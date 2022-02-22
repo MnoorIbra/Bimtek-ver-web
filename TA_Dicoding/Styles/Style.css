@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Quicksand:wght@400;700&display=swap');
+@media screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+        display: flex;
+    }
+}
+body{
+    font-family: 'Prompt';
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+header{
+    display: inline;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+    text-decoration: none;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    background-color: #ffff;
+    border-bottom: 0.5px solid gray;
+    top: 0;
+
+}
+a.logo{
+    
+    float: left;
+    color: #DA1212;
+    font-size: 50px;
+    line-height: 80px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-family: 'Prompt';
+    
+}
+a.logo:hover{
+    text-decoration: none;
+    color: #DA1212;
+}
+nav a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline;
+    margin: 0 5px;
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 16px;
+    text-align: center;
+    
+}
+
+a:hover{
+    font-weight: bold;
+    color: #ECB390;
+    text-decoration: underline;
+    cursor: pointer;
+}
+main{
+    overflow: auto;
+}
+
+img{
+    width: 510px;
+}
+section{
+    margin: auto;
+    display: flex;
+    padding-bottom:50px ;
+    padding-top:50px ;
+}
+.thumbnail{
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: right;
+}
+span{
+    color: skyblue;
+    font-weight: bold;
+    
+}
+h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 100%;
+    line-height: 50px;
+    color: #DA1212;
+    font-family: 'Prompt'; 
+}
+h2{
+    color:#DA1212
+}
+
+a.btn1{
+    color: black;
+    border-radius: 25px;
+    background-color: #ECB390;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+a.btn1:hover{
+    text-decoration: none;
+    opacity: 0.5;
+}
+a.btn{
+    color: black;
+    border-radius: 20px;
+    background-color: #ECB390;
+    padding: 15px 20px;
+    font-size: 10px;
+    margin-top: 20px;
+    overflow: auto;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+a.btn:hover{
+    text-decoration: none;
+    background-color: #676FA3;
+}
+p{
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+.thumbnail2{
+    float: left;
+    overflow: visible;
+    width: 500px;
+    margin-left: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.prodak{
+    text-align: center;
+    box-sizing: border-box;
+}
+.card-item{
+    display: flex;
+    width: 500px;
+    height: 380px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+.box {
+    flex-grow: 1;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.daftar{
+    text-align: justify;
+}
+.daftar li{
+    padding-bottom: 5px;
+}
+#about{
+    text-align: center;
+    text-justify: auto;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 0px;
+    width: 1100px;
+}
+.btnb{
+    color: #fff;
+    border-radius: 25px;
+    background-color: #DA1212;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+a.btnb:hover{
+    text-decoration: none;
+    background-color: #ECB390;
+    color: black;
+}
+aside{
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: auto;
+    text-decoration: none;
+}
+.foto{
+    width: 22%;
+    margin: 0 auto;
+    
+
+}
+.bio{
+    text-decoration: none;
+    padding: 0;
+    font-size: 14;
+}
+.card-item2{
+    display: flex;
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+.card{
+    flex-grow: 1;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+footer{
+    background-color: #DA1212;
+    padding: 30px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
